@@ -1,0 +1,31 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bariscemb/Pcat.git"
+  },
+  "author": "Barış Cem Bektaş",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bariscemb/Pcatissues"
+  },
+  "homepage": "https://github.com/beratozdin/PCAT#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "2.3.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.11",
+    "slugify": "^1.5.3"
+  }
+}
